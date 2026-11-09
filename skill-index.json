@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "blender-rig-understand",
+      "category": "rigging",
+      "category_zh": "绑定分析",
+      "stage": "理解绑定",
+      "purpose": "读取角色骨架，建立控制器职责、IK/FK 和空间档案",
+      "dependencies": "Blender MCP",
+      "scene_effect": "默认只读",
+      "path": "skills/rigging/blender-rig-understand"
+    },
+    {
+      "name": "blender-performance-plan",
+      "category": "animation",
+      "category_zh": "角色动画",
+      "stage": "表演规划",
+      "purpose": "编排动作节奏、关键姿态、接触事件及性格表演",
+      "dependencies": "动作目标；实时场景按需",
+      "scene_effect": "文字规划",
+      "path": "skills/animation/blender-performance-plan"
+    },
+    {
+      "name": "blender-character-animate",
+      "category": "animation",
+      "category_zh": "角色动画",
+      "stage": "动画制作",
+      "purpose": "从零制作或修改可播放的角色动画",
+      "dependencies": "Blender MCP；已绑定角色",
+      "scene_effect": "按请求创建或修改动画",
+      "path": "skills/animation/blender-character-animate"
+    },
+    {
+      "name": "blender-animation-review",
+      "category": "animation",
+      "category_zh": "角色动画",
+      "stage": "检查与修订",
+      "purpose": "检查求值姿态、网格形变、接触、轨迹、循环和衔接",
+      "dependencies": "Blender MCP；待检查动画",
+      "scene_effect": "检查默认只读；修订需授权",
+      "path": "skills/animation/blender-animation-review"
+    },
+    {
+      "name": "blender-retarget-repair",
+      "category": "retargeting",
+      "category_zh": "动画重定向",
+      "stage": "通用流程与修复",
+      "purpose": "映射分析、参考姿态协作和重定向后的系统问题修复",
+      "dependencies": "Blender MCP；源/目标绑定；所用重定向工具",
+      "scene_effect": "配置与修复按请求；正式重定向由用户操作",
+      "path": "skills/retargeting/blender-retarget-repair"
+    },
+    {
+      "name": "blender-man-girl-transfer",
+      "category": "retargeting",
+      "category_zh": "动画重定向",
+      "stage": "特定骨架预设",
+      "purpose": "Man → Girl 的静止基转换、前臂扭转拟合及骨架验收",
+      "dependencies": "Blender MCP；匹配随附校准的那对绑定",
+      "scene_effect": "检查只读；转换创建独立 Action",
+      "path": "skills/retargeting/blender-man-girl-transfer"
+    },
+    {
+      "name": "blender-subtitle-translate",
+      "category": "subtitles",
+      "category_zh": "课程字幕",
+      "stage": "翻译与校验",
+      "purpose": "Blender 英语 SRT → 简体中文及中英双语字幕",
+      "dependencies": "英语 SRT；Python 3 用于辅助脚本",
+      "scene_effect": "创建字幕；按 Skill 约定归档英文源文件",
+      "path": "skills/subtitles/blender-subtitle-translate"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender 课程字幕翻译"
+  short_description: "将 Blender 英语 SRT 译为简体中文，同时生成纯中文与中英双语字幕"
+  default_prompt: "请使用 $blender-subtitle-translate 翻译这份 Blender 英语 SRT，生成纯中文和中文在上的双语版，关键术语附英文并保留时间轴。"

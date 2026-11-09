@@ -1,0 +1,3 @@
+interface:
+  display_name: "Blender 动画重定向与修复"
+  short_description: "通过 MCP 检查并填写骨骼映射，配合参考姿态调整，验证和修复重定向动画"

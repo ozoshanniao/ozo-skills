@@ -1,0 +1,3 @@
+interface:
+  display_name: "男角色到女角色动画转换"
+  short_description: "复用男女角色骨骼映射，转换骨轴与前臂扭转，验证并生成独立动画 Action"
